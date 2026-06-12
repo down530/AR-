@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+.next/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment variables (contains secrets)
+.env
+.env.local
+.env.*.local
+
+# Local storage (generated images)
+local_storage/
+
+# ML Models (large files - download separately)
+models/
+*.h5
+*.onnx
+*.pth
+*.pkl
+*.safetensors
+*.ckpt
+*.bin
+
+# Claude workspace
+.claude/
+CLAUDE.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# LFS placeholder files (actual binaries not available)
+web-frontend/public/garments/Image_*.jpg
+web-frontend/public/garments/black-hoodie.jpg
+web-frontend/public/garments/denim-jacket.jpg
+web-frontend/public/garments/white-tshirt.jpg
+web-frontend/public/favicon/apple-touch-icon.png
+web-frontend/public/favicon/favicon-96x96.png
+web-frontend/public/favicon/web-app-manifest-*.png
+garment-processing-api/docs/api/postman_collection.json
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
